@@ -1,0 +1,7 @@
+{
+    "parent": "item/bow",
+    "textures": 
+    {
+        "layer0": "morearrows:items/extra_bow_1"
+    }
+}

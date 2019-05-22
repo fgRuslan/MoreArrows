@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" XS",
+		"XIS",
+		" XS"
+	],
+	"key": {
+		"S": {
+			"item": "minecraft:string"
+		},
+		"X": {
+			"item": "minecraft:stick"
+		},
+		"I": {
+			"item": "minecraft:iron_ingot"
+		}
+	},
+	"result": {
+		"item": "morearrows:extra_bow",
+		"count": 1
+	}
+}

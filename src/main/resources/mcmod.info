@@ -1,0 +1,12 @@
+[{
+  "modid": "morearrows",
+  "name": "More arrows",
+  "description": "Mod which adds more arrow types to the game.",
+  "version": "1.0",
+  "mcversion": "1.12.2",
+  "logoFile": "./logo.png",
+  "url": "google.com",
+  "updateJSON": "Ссылка на файл с информацией о обновлениях",
+  "authorList": ["Ubijca_16"],
+  "credits": "PASHA PIDOR"
+}]
