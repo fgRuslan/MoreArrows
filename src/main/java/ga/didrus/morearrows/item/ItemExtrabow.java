@@ -1,6 +1,5 @@
 package ga.didrus.morearrows.item;
 
-import ga.didrus.init.ModItems;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemBow;
 import net.minecraft.item.ItemStack;
@@ -15,7 +14,9 @@ public class ItemExtrabow extends ItemBow {
 	}
 	@Override
 	protected boolean isArrow(ItemStack stack) {
-		if(stack.getItem() == ModItems.EXPLOSIVE_ARROW)
+		if(stack.getItem() instanceof ItemTpArrow)
+			return true;
+		if(stack.getItem() instanceof ItemExplosiveArrow)
 			return true;
 		return false;
 	}

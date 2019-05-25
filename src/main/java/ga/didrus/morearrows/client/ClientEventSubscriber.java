@@ -16,6 +16,7 @@ public final class ClientEventSubscriber {
     @SubscribeEvent
     public static void registerModels(ModelRegistryEvent event) {
         registerModel(ModItems.EXPLOSIVE_ARROW);
+        registerModel(ModItems.TP_ARROW);
         registerModel(ModItems.EXTRA_BOW);
     }
 
