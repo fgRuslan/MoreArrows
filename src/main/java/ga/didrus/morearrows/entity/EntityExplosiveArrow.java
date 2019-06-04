@@ -1,6 +1,7 @@
 package ga.didrus.morearrows.entity;
 
 import ga.didrus.init.ModItems;
+import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.projectile.EntityArrow;
 import net.minecraft.item.ItemStack;
@@ -28,14 +29,14 @@ public class EntityExplosiveArrow extends EntityArrow {
 	@Override
 	protected void arrowHit(EntityLivingBase living) {
 		super.arrowHit(living);
-		this.world.createExplosion(living, living.posX, living.posY, living.posZ, 5.0f, true);
+		this.world.createExplosion((Entity)null, living.posX, living.posY, living.posZ, 5.0f, true);
 		this.setDead();
 	}
 	@Override
 	public void onUpdate() {
 		super.onUpdate();
 		if(this.inGround) {
-			this.world.createExplosion(this, this.posX, this.posY, this.posZ, 5.0f, true);
+			this.world.createExplosion((Entity)null, this.posX, this.posY, this.posZ, 5.0f, true);
 			this.setDead();
 		}
 	}
