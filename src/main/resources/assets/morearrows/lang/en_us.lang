@@ -1,4 +1,6 @@
 item.extra_bow.name=Advanced bow
 item.explosive_arrow.name=Explosive arrow
+item.teleport_arrow.name=Teleport arrow
 
 entity.explosive_arrow.name=Explosive arrow
+entity.teleport_arrow.name=Teleport arrow

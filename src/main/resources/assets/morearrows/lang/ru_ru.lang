@@ -1,4 +1,6 @@
 item.extra_bow.name=Улучшенный лук
 item.explosive_arrow.name=Взрывная стрела
+item.teleport_arrow.name=Телепортирующая стрела
 
 entity.explosive_arrow.name=Взрывная стрела
+entity.teleport_arrow.name=Телепортирующая стрела

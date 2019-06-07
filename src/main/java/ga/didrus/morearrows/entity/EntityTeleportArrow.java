@@ -6,19 +6,19 @@ import net.minecraft.entity.projectile.EntityArrow;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 
-public class EntityTpArrow extends EntityArrow {
+public class EntityTeleportArrow extends EntityArrow {
 
 	private EntityLivingBase shooter1;
 	
-	public EntityTpArrow(World worldIn) {
+	public EntityTeleportArrow(World worldIn) {
 		super(worldIn);
 	}
 
-	public EntityTpArrow(World worldIn, double x, double y, double z) {
+	public EntityTeleportArrow(World worldIn, double x, double y, double z) {
 		super(worldIn,x,y,z);
 	}
 
-	public EntityTpArrow(World worldIn, EntityLivingBase shooter) {
+	public EntityTeleportArrow(World worldIn, EntityLivingBase shooter) {
 		super(worldIn,shooter);
 		shooter1 = shooter;
 	}

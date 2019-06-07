@@ -15,7 +15,7 @@ public class ItemExtrabow extends ItemBow {
 	}
 	@Override
 	protected boolean isArrow(ItemStack stack) {
-		if(stack.getItem() instanceof ItemTpArrow)
+		if(stack.getItem() instanceof ItemTeleportArrow)
 			return true;
 		if(stack.getItem() instanceof ItemExplosiveArrow)
 			return true;

@@ -2,7 +2,7 @@ package ga.didrus.morearrows;
 
 import ga.didrus.morearrows.item.ItemExplosiveArrow;
 import ga.didrus.morearrows.item.ItemExtrabow;
-import ga.didrus.morearrows.item.ItemTpArrow;
+import ga.didrus.morearrows.item.ItemTeleportArrow;
 import net.minecraft.item.Item;
 import net.minecraftforge.event.RegistryEvent.Register;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
@@ -15,7 +15,7 @@ public final class EventSubscriber {
 	public static void registerItems(Register<Item> event) {
 		final Item[] items = {
 				new ItemExplosiveArrow(),
-				new ItemTpArrow(),
+				new ItemTeleportArrow(),
 				new ItemExtrabow(),
 		};
 
