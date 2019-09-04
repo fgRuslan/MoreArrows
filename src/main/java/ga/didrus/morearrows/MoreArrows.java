@@ -1,5 +1,6 @@
 package ga.didrus.morearrows;
 
+import ga.didrus.init.ModBlocks;
 import ga.didrus.init.ModEntities;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -21,6 +22,7 @@ public class MoreArrows {
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
 		ModEntities.RegisterEntities();
+		ModBlocks.init();
 	}
 	
 	@EventHandler
