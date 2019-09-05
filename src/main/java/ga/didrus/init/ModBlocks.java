@@ -1,7 +1,7 @@
 package ga.didrus.init;
 
 import ga.didrus.morearrows.MoreArrows;
-import ga.didrus.morearrows.block.BlockBasic;
+import ga.didrus.morearrows.block.BlockYungRussia;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.Item;
@@ -16,7 +16,7 @@ public class ModBlocks {
 	public static Block tutorialBlock;
 	
 	public static void init() {
-		  tutorialBlock = new BlockBasic("block_yungrussia", Material.ROCK);
+		  tutorialBlock = new BlockYungRussia("block_yungrussia", Material.ROCK);
 		}
 	
 	@SubscribeEvent
