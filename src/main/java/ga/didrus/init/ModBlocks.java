@@ -13,11 +13,11 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 @Mod.EventBusSubscriber(modid=MoreArrows.modId)
 public class ModBlocks {
 
-	public static Block tutorialBlock;
+	public static Block blockYungRussia;
 	
 	public static void init() {
-		  tutorialBlock = new BlockYungRussia("block_yungrussia", Material.ROCK);
-		}
+		  blockYungRussia = new BlockYungRussia("block_yungrussia", Material.ROCK);
+	}
 	
 	@SubscribeEvent
 	public static void registerBlocks(RegistryEvent.Register<Block> event) {

@@ -30,17 +30,17 @@ public final class EventSubscriber {
 	}
 	@SubscribeEvent
 	public static void registerBlocks(RegistryEvent.Register<Block> event) {
-	  event.getRegistry().registerAll(ModBlocks.tutorialBlock);
+	  event.getRegistry().registerAll(ModBlocks.blockYungRussia);
 	}
 	@SubscribeEvent
 	public static void registerItemBlocks(RegistryEvent.Register<Item> event) {
-	  event.getRegistry().registerAll(new ItemBlock(ModBlocks.tutorialBlock).setRegistryName(ModBlocks.tutorialBlock.getRegistryName()));
+	  event.getRegistry().registerAll(new ItemBlock(ModBlocks.blockYungRussia).setRegistryName(ModBlocks.blockYungRussia.getRegistryName()));
 	}
 	public static void registerRender(Item item) {
 		  ModelLoader.setCustomModelResourceLocation(item, 0, new ModelResourceLocation( item.getRegistryName(), "inventory"));
 	}
 	@SubscribeEvent
 	public static void registerRenders(ModelRegistryEvent event) {
-	  registerRender(Item.getItemFromBlock(ModBlocks.tutorialBlock));
+	  registerRender(Item.getItemFromBlock(ModBlocks.blockYungRussia));
 	}
 }
